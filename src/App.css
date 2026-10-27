@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+html {
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+body {
+  min-height: 100%;
+  width: 100%;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Le contenu doit pouvoir dépasser la hauteur initiale de la fenêtre. */
+#root > * {
+  min-height: 100vh;
+}
